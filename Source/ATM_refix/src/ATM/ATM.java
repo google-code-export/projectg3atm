@@ -448,12 +448,12 @@ public class ATM extends javax.swing.JFrame {
         pnFarther.setLayout(new java.awt.CardLayout());
 
         tbnLogin.setForeground(new java.awt.Color(153, 153, 0));
-        tbnLogin.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        tbnLogin.setFont(new java.awt.Font("Tahoma", 1, 14));
         tbnLogin.setMaximumSize(new java.awt.Dimension(1000, 800));
         tbnLogin.setMinimumSize(new java.awt.Dimension(1000, 800));
         tbnLogin.setPreferredSize(new java.awt.Dimension(1000, 700));
 
-        pnCustomer_Log.setBackground(new java.awt.Color(255, 255, 255));
+        pnCustomer_Log.setBackground(new java.awt.Color(204, 255, 204));
         pnCustomer_Log.setMaximumSize(new java.awt.Dimension(1000, 800));
         pnCustomer_Log.setMinimumSize(new java.awt.Dimension(1000, 800));
         pnCustomer_Log.setPreferredSize(new java.awt.Dimension(1000, 700));
@@ -468,7 +468,7 @@ public class ATM extends javax.swing.JFrame {
         pnLogo1.setMinimumSize(new java.awt.Dimension(810, 110));
         pnLogo1.setPreferredSize(new java.awt.Dimension(810, 110));
 
-        jLabel19.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel19.setBackground(new java.awt.Color(153, 255, 153));
         jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/logo_ATM.png"))); // NOI18N
         jLabel19.setMaximumSize(new java.awt.Dimension(810, 110));
         jLabel19.setMinimumSize(new java.awt.Dimension(810, 110));
@@ -477,7 +477,7 @@ public class ATM extends javax.swing.JFrame {
 
         pnLayout1.add(pnLogo1);
 
-        pnLogin_container.setBackground(new java.awt.Color(255, 255, 255));
+        pnLogin_container.setBackground(new java.awt.Color(204, 255, 153));
         pnLogin_container.setMaximumSize(new java.awt.Dimension(500, 500));
         pnLogin_container.setMinimumSize(new java.awt.Dimension(500, 500));
         pnLogin_container.setPreferredSize(new java.awt.Dimension(500, 500));
@@ -486,7 +486,8 @@ public class ATM extends javax.swing.JFrame {
         jPanel23.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Time System", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 18), new java.awt.Color(0, 0, 204))); // NOI18N
         jPanel23.setPreferredSize(new java.awt.Dimension(390, 100));
 
-        lblTime5.setFont(new java.awt.Font("Tahoma", 0, 24));
+        lblTime5.setBackground(new java.awt.Color(153, 255, 153));
+        lblTime5.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         lblTime5.setForeground(new java.awt.Color(255, 0, 0));
         lblTime5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblTime5.setPreferredSize(new java.awt.Dimension(350, 50));
@@ -813,7 +814,7 @@ public class ATM extends javax.swing.JFrame {
         jPanel2.setPreferredSize(new java.awt.Dimension(300, 450));
 
         btnCus_Desposit.setBackground(new java.awt.Color(255, 255, 255));
-        btnCus_Desposit.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        btnCus_Desposit.setFont(new java.awt.Font("Calibri", 0, 18));
         btnCus_Desposit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/CDesposit money cus.png"))); // NOI18N
         btnCus_Desposit.setText("Desposit ");
         btnCus_Desposit.setPreferredSize(new java.awt.Dimension(200, 50));
@@ -829,7 +830,7 @@ public class ATM extends javax.swing.JFrame {
         });
         jPanel2.add(btnCus_Desposit);
 
-        btnCus_Withdraw.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        btnCus_Withdraw.setFont(new java.awt.Font("Calibri", 0, 18));
         btnCus_Withdraw.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/cWithdraw.png"))); // NOI18N
         btnCus_Withdraw.setText("Withdraw");
         btnCus_Withdraw.setPreferredSize(new java.awt.Dimension(200, 50));
@@ -845,7 +846,7 @@ public class ATM extends javax.swing.JFrame {
         });
         jPanel2.add(btnCus_Withdraw);
 
-        btnCus_Transfer.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        btnCus_Transfer.setFont(new java.awt.Font("Calibri", 0, 18));
         btnCus_Transfer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/CTransfer money cus.png"))); // NOI18N
         btnCus_Transfer.setText("Transfer");
         btnCus_Transfer.setPreferredSize(new java.awt.Dimension(200, 50));
@@ -861,7 +862,7 @@ public class ATM extends javax.swing.JFrame {
         });
         jPanel2.add(btnCus_Transfer);
 
-        btnCus_Blance.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        btnCus_Blance.setFont(new java.awt.Font("Calibri", 0, 18));
         btnCus_Blance.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Cbalance customer.png"))); // NOI18N
         btnCus_Blance.setText("Balance");
         btnCus_Blance.setPreferredSize(new java.awt.Dimension(200, 50));
@@ -877,7 +878,7 @@ public class ATM extends javax.swing.JFrame {
         });
         jPanel2.add(btnCus_Blance);
 
-        btnCus_ChangePin.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        btnCus_ChangePin.setFont(new java.awt.Font("Calibri", 0, 18));
         btnCus_ChangePin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Cchange pin customer.png"))); // NOI18N
         btnCus_ChangePin.setText("Change PIN");
         btnCus_ChangePin.setPreferredSize(new java.awt.Dimension(200, 50));
@@ -894,7 +895,7 @@ public class ATM extends javax.swing.JFrame {
         jPanel2.add(btnCus_ChangePin);
         btnCus_ChangePin.getAccessibleContext().setAccessibleName("ChangePIN");
 
-        btnCus_Exit.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        btnCus_Exit.setFont(new java.awt.Font("Calibri", 0, 18));
         btnCus_Exit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/turnOff.png"))); // NOI18N
         btnCus_Exit.setText("Exit");
         btnCus_Exit.setPreferredSize(new java.awt.Dimension(200, 50));
@@ -939,7 +940,7 @@ public class ATM extends javax.swing.JFrame {
         jLabel7.setPreferredSize(new java.awt.Dimension(50, 14));
         jPanel4.add(jLabel7);
 
-        lblCus_Age.setFont(new java.awt.Font("Calibri", 0, 11)); // NOI18N
+        lblCus_Age.setFont(new java.awt.Font("Calibri", 0, 11));
         lblCus_Age.setForeground(new java.awt.Color(51, 0, 204));
         lblCus_Age.setPreferredSize(new java.awt.Dimension(300, 14));
         jPanel4.add(lblCus_Age);
@@ -949,7 +950,7 @@ public class ATM extends javax.swing.JFrame {
         jLabel9.setPreferredSize(new java.awt.Dimension(50, 14));
         jPanel4.add(jLabel9);
 
-        lblCus_Phone.setFont(new java.awt.Font("Calibri", 0, 11)); // NOI18N
+        lblCus_Phone.setFont(new java.awt.Font("Calibri", 0, 11));
         lblCus_Phone.setForeground(new java.awt.Color(51, 0, 204));
         lblCus_Phone.setPreferredSize(new java.awt.Dimension(300, 14));
         jPanel4.add(lblCus_Phone);
@@ -959,7 +960,7 @@ public class ATM extends javax.swing.JFrame {
         jLabel8.setPreferredSize(new java.awt.Dimension(50, 14));
         jPanel4.add(jLabel8);
 
-        lblCus_Address.setFont(new java.awt.Font("Calibri", 0, 11)); // NOI18N
+        lblCus_Address.setFont(new java.awt.Font("Calibri", 0, 11));
         lblCus_Address.setForeground(new java.awt.Color(51, 0, 204));
         lblCus_Address.setPreferredSize(new java.awt.Dimension(300, 14));
         jPanel4.add(lblCus_Address);
@@ -1129,7 +1130,7 @@ public class ATM extends javax.swing.JFrame {
         jLabel11.setPreferredSize(new java.awt.Dimension(50, 14));
         jPanel10.add(jLabel11);
 
-        lblAdm_Age.setFont(new java.awt.Font("Calibri", 0, 11)); // NOI18N
+        lblAdm_Age.setFont(new java.awt.Font("Calibri", 0, 11));
         lblAdm_Age.setForeground(new java.awt.Color(51, 0, 204));
         lblAdm_Age.setPreferredSize(new java.awt.Dimension(300, 14));
         jPanel10.add(lblAdm_Age);
@@ -1140,7 +1141,7 @@ public class ATM extends javax.swing.JFrame {
         jLabel12.setPreferredSize(new java.awt.Dimension(50, 14));
         jPanel10.add(jLabel12);
 
-        lblAdm_Phone.setFont(new java.awt.Font("Calibri", 0, 11)); // NOI18N
+        lblAdm_Phone.setFont(new java.awt.Font("Calibri", 0, 11));
         lblAdm_Phone.setForeground(new java.awt.Color(51, 0, 204));
         lblAdm_Phone.setPreferredSize(new java.awt.Dimension(300, 14));
         jPanel10.add(lblAdm_Phone);
@@ -1151,7 +1152,7 @@ public class ATM extends javax.swing.JFrame {
         jLabel10.setPreferredSize(new java.awt.Dimension(50, 14));
         jPanel10.add(jLabel10);
 
-        lblAdm_Address.setFont(new java.awt.Font("Calibri", 0, 11)); // NOI18N
+        lblAdm_Address.setFont(new java.awt.Font("Calibri", 0, 11));
         lblAdm_Address.setForeground(new java.awt.Color(51, 0, 204));
         lblAdm_Address.setPreferredSize(new java.awt.Dimension(300, 14));
         jPanel10.add(lblAdm_Address);
@@ -1922,7 +1923,7 @@ public class ATM extends javax.swing.JFrame {
 
         jTabbedPane1.setBackground(new java.awt.Color(0, 153, 204));
         jTabbedPane1.setForeground(new java.awt.Color(102, 102, 0));
-        jTabbedPane1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jTabbedPane1.setFont(new java.awt.Font("Tahoma", 1, 14));
         jTabbedPane1.setMaximumSize(new java.awt.Dimension(810, 110));
         jTabbedPane1.setMinimumSize(new java.awt.Dimension(810, 110));
         jTabbedPane1.setPreferredSize(new java.awt.Dimension(810, 110));
@@ -1937,7 +1938,7 @@ public class ATM extends javax.swing.JFrame {
         jPanel14.setPreferredSize(new java.awt.Dimension(810, 110));
 
         jLabel23.setBackground(new java.awt.Color(255, 255, 204));
-        jLabel23.setFont(new java.awt.Font("Tahoma 36", 0, 36)); // NOI18N
+        jLabel23.setFont(new java.awt.Font("Tahoma 36", 0, 36));
         jLabel23.setForeground(new java.awt.Color(0, 0, 255));
         jLabel23.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/logo/logotransaction.png"))); // NOI18N
@@ -1983,7 +1984,7 @@ public class ATM extends javax.swing.JFrame {
         jScrollPane3.setPreferredSize(new java.awt.Dimension(780, 300));
 
         tbDesposit.setBackground(new java.awt.Color(255, 255, 204));
-        tbDesposit.setFont(new java.awt.Font("Calibri", 0, 12)); // NOI18N
+        tbDesposit.setFont(new java.awt.Font("Calibri", 0, 12));
         tbDesposit.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -2860,7 +2861,7 @@ public class ATM extends javax.swing.JFrame {
         jLabel67.setPreferredSize(new java.awt.Dimension(200, 14));
         pn_Menu_Blance.add(jLabel67);
 
-        lblFullName.setFont(new java.awt.Font("Calibri", 0, 11)); // NOI18N
+        lblFullName.setFont(new java.awt.Font("Calibri", 0, 11));
         lblFullName.setForeground(new java.awt.Color(0, 0, 255));
         lblFullName.setPreferredSize(new java.awt.Dimension(200, 14));
         pn_Menu_Blance.add(lblFullName);
@@ -2874,7 +2875,7 @@ public class ATM extends javax.swing.JFrame {
         jLabel69.setRequestFocusEnabled(false);
         pn_Menu_Blance.add(jLabel69);
 
-        lbl_Blance_Gender.setFont(new java.awt.Font("Calibri", 0, 11)); // NOI18N
+        lbl_Blance_Gender.setFont(new java.awt.Font("Calibri", 0, 11));
         lbl_Blance_Gender.setForeground(new java.awt.Color(0, 0, 255));
         lbl_Blance_Gender.setPreferredSize(new java.awt.Dimension(200, 14));
         pn_Menu_Blance.add(lbl_Blance_Gender);
@@ -2889,7 +2890,7 @@ public class ATM extends javax.swing.JFrame {
         jLabel70.setPreferredSize(new java.awt.Dimension(200, 14));
         pn_Menu_Blance.add(jLabel70);
 
-        lblBlance_Address.setFont(new java.awt.Font("Calibri", 0, 11)); // NOI18N
+        lblBlance_Address.setFont(new java.awt.Font("Calibri", 0, 11));
         lblBlance_Address.setForeground(new java.awt.Color(0, 0, 255));
         lblBlance_Address.setPreferredSize(new java.awt.Dimension(200, 14));
         pn_Menu_Blance.add(lblBlance_Address);
@@ -2902,7 +2903,7 @@ public class ATM extends javax.swing.JFrame {
         jLabel77.setPreferredSize(new java.awt.Dimension(200, 14));
         pn_Menu_Blance.add(jLabel77);
 
-        lblBlance_Blance.setFont(new java.awt.Font("Calibri", 0, 11)); // NOI18N
+        lblBlance_Blance.setFont(new java.awt.Font("Calibri", 0, 11));
         lblBlance_Blance.setForeground(new java.awt.Color(0, 0, 255));
         lblBlance_Blance.setPreferredSize(new java.awt.Dimension(200, 14));
         pn_Menu_Blance.add(lblBlance_Blance);
@@ -2910,12 +2911,12 @@ public class ATM extends javax.swing.JFrame {
         jLabel80.setPreferredSize(new java.awt.Dimension(200, 14));
         pn_Menu_Blance.add(jLabel80);
 
-        lblBlance_Transaction1.setFont(new java.awt.Font("Calibri", 0, 11)); // NOI18N
+        lblBlance_Transaction1.setFont(new java.awt.Font("Calibri", 0, 11));
         lblBlance_Transaction1.setForeground(new java.awt.Color(102, 102, 0));
         lblBlance_Transaction1.setPreferredSize(new java.awt.Dimension(200, 14));
         pn_Menu_Blance.add(lblBlance_Transaction1);
 
-        lblBlance_Address2.setFont(new java.awt.Font("Calibri", 0, 11)); // NOI18N
+        lblBlance_Address2.setFont(new java.awt.Font("Calibri", 0, 11));
         lblBlance_Address2.setForeground(new java.awt.Color(255, 0, 0));
         lblBlance_Address2.setPreferredSize(new java.awt.Dimension(200, 14));
         pn_Menu_Blance.add(lblBlance_Address2);
